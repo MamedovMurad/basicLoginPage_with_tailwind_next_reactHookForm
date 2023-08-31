@@ -30,7 +30,7 @@ const SmsCodeInput: React.FC<SmsCodeInputProps> = ({email}) => {
         <p className='text-center font-semibold '>{email} <a href="#" className=' font-normal'>Change</a></p>
         <p>SMS code</p>
       </div>
-      <form action="" className='flex-col space-y-5 box-border'>
+      <form action="" className='flex-col space-y-5 box-border py-1'>
         <div className="flex justify-between">
           {codeInputs.map((inputRef, index) => (
             <input
